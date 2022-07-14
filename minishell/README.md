@@ -128,7 +128,7 @@ bash-3.2$ export PS1='$(pwd): '
 # $(USER) нужно чтобы у любого юзера искал подобный путь
 # 8.1.* любой патч с мажорной версией 8 и минорной 1, вдруг у Вас с тиммейтом разные версии readline
 
--I /Users/$(USER)/.brew/Cellar/readline/8.1.?/include/ -lreadline -L /Users/$(USER)/.brew/Cellar/readline/8.*/lib/
+-I /Users/$(USER)/.brew/Cellar/readline/8.1.*/include/ -lreadline -L /Users/$(USER)/.brew/Cellar/readline/8.1.*/lib/
 ```
 
 ---
