@@ -66,7 +66,7 @@ switch (state): {
 // RET_TYPE -- возвращаемый тип
 // t_func_ptr -- название типа указателя на функцию
 // PARAM_TYPE -- тип параметра
-typedef RET_TYPE (*t_func_ptr)(PARAM_TYPE_A a, PARAM_TYPE_B b, ...)
+typedef RET_TYPE (*t_func_ptr)(PARAM_TYPE_A a, PARAM_TYPE_B b, ...);
 
 t_func_ptr f_ptrs[BUILTIN_FUNC_COUNT];
 
