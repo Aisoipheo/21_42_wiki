@@ -160,9 +160,11 @@ Text 2
 # Да, bash и так умеет, но в сабжекте ничего не написано про раскрытие переменных и тем более вызов сабшеллов
 
 # 15/07/2022 en.subject.pdf
-# << should be given a delimiter, then read the input until a line containing the delimiter is seen. However, it doesn’t have to update the history!
+# << should be given a delimiter, then read the input until a line containing the delimiter is seen.
+# However, it doesn’t have to update the history!
 
-# Следом за << должен быть разделитель, а после поток ввода должен считываться до указанного разделителя. Данный процесс не должен обновлять историю (введенным текстом, команда должна быть в истории)
+# Следом за << должен быть разделитель, а после поток ввода должен считываться до указанного разделителя.
+# Данный процесс не должен обновлять историю (введенным текстом, команда должна быть в истории)
 
 bash-3.2$ cat << Cool-Delimiter
 > echo $HOME $(ls)
