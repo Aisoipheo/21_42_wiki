@@ -5,7 +5,7 @@
 - [Материалы](#материалы)
 - [Структуры и переменные](#cтруктуры-и-переменные)
 - [Readline](#readline)
-- [Lexer](#lexer)
+- [Built-in's](#built-ins)
 - [Другое](#другое)
 
 <br />
@@ -167,7 +167,7 @@ bash-3.2$ export PS1='$(pwd): '
 
 <br />
 
-## Lexer
+## Builtin's
 
 **Q**: Что значит чтение из `HEREDOC` и как это работает?
 
@@ -263,6 +263,7 @@ After
 
 https://github.com/sickcodes/Docker-OSX
 
+Команды, которые нужно прописать ДО перехода в fork()
 ```
 set follow-fork-mode child
 set detach-on-fork off
