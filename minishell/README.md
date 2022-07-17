@@ -1,5 +1,15 @@
 # minishell
 
+## Оглавление
+
+- [Материалы](#материалы)
+- [Структуры и переменные](#cтруктуры-и-переменные)
+- [Readline](#readline)
+- [Lexer](#lexer)
+- [Другое](#другое)
+
+<br />
+
 ## Материалы
 
 * [GNU Readline](https://tiswww.case.edu/php/chet/readline/rltop.html)
@@ -24,13 +34,6 @@
 * [bash command processing](http://aosabook.org/en/bash.html)
 * [bash parser](https://mywiki.wooledge.org/BashParser)
 * [Bash Reference Manual](https://www.gnu.org/software/bash/manual/html_node/index.html)
-
-## Оглавление
-
-- [Структуры и переменные](#cтруктуры-и-переменные)
-- [Readline](#readline)
-- [Lexer](#lexer)
-- [Другое](#другое)
 
 <br />
 
