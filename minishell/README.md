@@ -263,7 +263,7 @@ After
 
 https://github.com/sickcodes/Docker-OSX
 
-Команды, которые нужно прописать ДО перехода в fork()
+Команды, которые нужно прописать ДО перехода в `fork()`
 ```
 set follow-fork-mode child
 set detach-on-fork off
