@@ -236,7 +236,8 @@ After
 https://github.com/sickcodes/Docker-OSX
 
 ```
-set follow-fork-mode [child|parent]
+set follow-fork-mode child
+set detach-on-fork off
 ```
 
 ---
