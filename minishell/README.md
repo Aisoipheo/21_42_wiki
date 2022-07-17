@@ -167,7 +167,7 @@ bash-3.2$ export PS1='$(pwd): '
 
 <br />
 
-## Builtin's
+## Built-in's
 
 **Q**: Что значит чтение из `HEREDOC` и как это работает?
 
